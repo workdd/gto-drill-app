@@ -1,4 +1,4 @@
-const CACHE = "gto-drill-v4";
+const CACHE = "gto-drill-v5";
 const base = self.registration.scope;
 const SHELL = ["./", "index.html", "manifest.webmanifest", "icon.svg", "icon-192.png", "icon-512.png", "apple-touch-icon.png", "equity-table.bin", "blocker-table.bin"]
   .map((path) => new URL(path, base).href);
